@@ -9,6 +9,14 @@ var randomImageSource2 = "images/dice" + randomNumber2 + ".png";
 document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
 
 
+//selecting the play again button component
+
+const btn = document.querySelector(".play-again");
+
+btn.addEventListener("click",()=>{
+    window.location.reload()
+})
+
 
 if(randomNumber1 > randomNumber2){
     document.querySelector("h1").innerHTML="🏳️‍🌈Player 1Wins!";

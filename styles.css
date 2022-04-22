@@ -32,6 +32,23 @@ img {
   width: 80%;
 }
 
+.play-again{
+  outline: none;
+  border: none;
+  font-size: 1.21em;
+  padding: 0.4em 0.86em;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 1.6em;
+  border-radius: 0.3em;
+  background: violet;
+  color: rgb(152, 38, 152);
+  transition: background 350ms ease-in;
+}
+.play-again:hover{
+  background: rgb(250, 180, 250);
+}
 
 footer {
   margin-top: 5%;
